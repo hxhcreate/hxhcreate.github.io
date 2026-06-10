@@ -124,7 +124,10 @@
 }
 
 .visitor-map {
+  width: 70%;
   margin-top: 0.75em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .visitor-map p {
@@ -133,6 +136,10 @@
 }
 
 @media (max-width: 768px) {
+  .visitor-map {
+    width: 100%;
+  }
+
   .experience-entry {
     grid-template-columns: 66px minmax(0, 1fr);
   }
