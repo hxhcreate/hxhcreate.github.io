@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Xuhao Hu, PhD student at FudanNLP, Fudan University. Research in computer-use agents, GUI agents, LLM/VLM safety alignment, post-training, and diffusion LLMs.">
+  <title>Xuhao Hu (胡栩浩)</title>
+  <link rel="icon" type="image/png" href="images/profile.png">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#about">Xuhao Hu</a>
+    <nav aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#news">News</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#honors">Honors</a>
+      <a href="#service">Service</a>
+    </nav>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar" aria-label="Profile">
+      <section class="profile">
+        <img class="avatar" src="images/profile.png" alt="Xuhao Hu profile avatar">
+        <h1>Xuhao Hu <span>胡栩浩</span></h1>
+        <p class="subtitle">PhD Student at FudanNLP, Fudan University</p>
+        <p class="motto">Building reliable computer-use agents and safer foundation models.</p>
+        <ul class="contact-list">
+          <li>Shanghai, China</li>
+          <li><a href="mailto:xuhaohu08@gmail.com">xuhaohu08@gmail.com</a></li>
+          <li><a href="mailto:xhhu24@m.fudan.edu.cn">xhhu24@m.fudan.edu.cn</a></li>
+          <li><a href="https://github.com/hxhcreate">GitHub</a></li>
+          <li><a href="https://scholar.google.com.sg/citations?user=18y_b1gAAAAJ&hl=en">Google Scholar</a></li>
+          <li><a href="files/resume.pdf">CV</a></li>
+        </ul>
+      </section>
+    </aside>
+
+    <article class="content">
+      <section id="about" class="section">
+        <p class="eyebrow">Academic Homepage</p>
+        <h2>About Me</h2>
+        <p>
+          I am a PhD student in Computer Science at <a href="https://nlp.fudan.edu.cn/">FudanNLP</a>,
+          Fudan University, supervised by <a href="https://xuanjing-huang.github.io/">Xuanjing Huang</a>.
+          I also collaborate closely with Jing Shao and the AI45/OpenTrust team. Before joining Fudan,
+          I received my B.S. degree from the Computer Science Elite Class at Beijing Institute of Technology.
+        </p>
+        <p>
+          My research focuses on <strong>computer-use agents and GUI agents</strong>, <strong>safety alignment
+          and post-training for LLMs/VLMs</strong>, and <strong>reinforcement learning for diffusion LLMs</strong>.
+          I am interested in scalable agentic RL, GUI-tool orchestration, verifiable sandbox environments,
+          multimodal safety evaluation, and reward modeling for safer and more capable AI systems.
+        </p>
+        <div class="quick-stats" aria-label="Profile highlights">
+          <div><strong>FudanNLP</strong><span>PhD, 2024-now</span></div>
+          <div><strong>Top 5%</strong><span>B.S. ranking at BIT</span></div>
+          <div><strong>300+</strong><span>Citations for safety work</span></div>
+          <div><strong>100K+</strong><span>HF downloads for MD-Judge line</span></div>
+        </div>
+      </section>
+
+      <section id="news" class="section">
+        <h2>News</h2>
+        <div class="news-box">
+          <ul>
+            <li><time>2026.05</time> ToolCUA was released as an arXiv preprint and submitted to NeurIPS 2026.</li>
+            <li><time>2026.04</time> DARE was released as an RL training framework for diffusion large language models.</li>
+            <li><time>2026</time> LLMs Deceive Unintentionally was accepted to ACL 2026.</li>
+            <li><time>2026</time> IS-Bench was accepted to AAAI 2026.</li>
+            <li><time>2025.11</time> Joined the Mobile-Agent / XPLUG team at Tongyi Lab, Alibaba.</li>
+            <li><time>2025</time> Unveiling Visual Leakage in Multimodal Safety was accepted to ACL 2025.</li>
+            <li><time>2024</time> SALAD-Bench and MD-Judge were accepted to ACL 2024.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="research" class="section">
+        <h2>Research Topics</h2>
+        <div class="topic-grid">
+          <section>
+            <h3>Computer-Use Agents</h3>
+            <p>GUI-tool path orchestration, computer-use agent data scaling, rollout sandboxes, GUI-MCP environments, and agentic RL for desktop/mobile workflows.</p>
+          </section>
+          <section>
+            <h3>Safety Alignment</h3>
+            <p>LLM/VLM safety judges, multimodal safety leakage, interactive embodied-agent safety, dishonesty misalignment, and multimodal reward models.</p>
+          </section>
+          <section>
+            <h3>Diffusion LLMs</h3>
+            <p>RL algorithms and training infrastructure tailored to diffusion large language models, including efficient policy optimization and evaluation recipes.</p>
+          </section>
+        </div>
+      </section>
+
+      <section id="publications" class="section">
+        <h2>Selected Publications</h2>
+        <p class="note">* Equal contribution, † corresponding author. Role labels follow my CV and project pages.</p>
+
+        <div class="publication-list">
+          <article class="publication featured">
+            <a class="paper-media" href="https://x-plug.github.io/ToolCUA/">
+              <img src="https://raw.githubusercontent.com/X-PLUG/ToolCUA/main/assets/main_teaser.png" alt="ToolCUA teaser">
+            </a>
+            <div class="paper-body">
+              <div class="paper-meta"><span>ArXiv</span><span>NeurIPS 2026 under review</span><span>First Author</span></div>
+              <h3><a href="https://arxiv.org/abs/2605.12481">ToolCUA: Towards Optimal GUI-Tool Path Orchestration for Computer Use Agents</a></h3>
+              <p class="authors"><strong>Xuhao Hu</strong>*, Xi Zhang*, Haiyang Xu†, Kyle Qiao, Jingyi Yang, Xuanjing Huang, Jing Shao, Ming Yan†, Jieping Ye</p>
+              <p>Introduces an end-to-end computer-use agent for optimal GUI-tool path selection, combining interleaved GUI-tool trajectory scaling, tool-bootstrapped GUI RFT, and online agentic RL.</p>
+              <div class="links">
+                <a href="https://arxiv.org/abs/2605.12481">Paper</a>
+                <a href="https://x-plug.github.io/ToolCUA/">Project</a>
+                <a href="https://github.com/X-PLUG/ToolCUA">Code</a>
+                <a href="https://huggingface.co/mPLUG/ToolCUA-8B">Model</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="publication">
+            <a class="paper-media" href="https://github.com/X-PLUG/MobileAgent">
+              <img src="https://raw.githubusercontent.com/X-PLUG/MobileAgent/main/assets/logo.png" alt="Mobile-Agent logo">
+            </a>
+            <div class="paper-body">
+              <div class="paper-meta"><span>Tech Report</span><span>Core Contributor</span></div>
+              <h3><a href="https://arxiv.org/abs/2602.16855">Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents</a></h3>
+              <p class="authors">Xi Zhang, Haiyang Xu, et al.; <strong>Xuhao Hu</strong> as core contributor</p>
+              <p>A multi-platform GUI agent report from the Mobile-Agent series. I worked on GUI + tool capabilities, OSWorld-MCP/MobileWorld results, verifiable tasks, rollout sandboxes, and GUI critic pipelines.</p>
+              <div class="links">
+                <a href="https://arxiv.org/abs/2602.16855">Paper</a>
+                <a href="https://github.com/X-PLUG/MobileAgent">Code</a>
+                <a href="https://github.com/X-PLUG">X-PLUG</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="publication">
+            <a class="paper-media" href="https://github.com/OpenSafetyLab/SALAD-BENCH">
+              <img src="assets/papers/salad.jpg" alt="SALAD-Bench overview">
+            </a>
+            <div class="paper-body">
+              <div class="paper-meta"><span>ACL 2024</span><span>Co-First Author</span></div>
+              <h3><a href="https://github.com/OpenSafetyLab/SALAD-BENCH">SALAD-Bench and MD-Judge</a></h3>
+              <p class="authors">OpenSafetyLab team, including <strong>Xuhao Hu</strong></p>
+              <p>Early LLM-based safety judge models and benchmark resources. MD-Judge-v1/v2 and related data/models have reached 100K+ Hugging Face downloads and 300+ citations.</p>
+              <div class="links">
+                <a href="https://github.com/OpenSafetyLab/SALAD-BENCH">Code</a>
+                <a href="https://huggingface.co/OpenSafetyLab/MD-Judge-v0.1">MD-Judge-v1</a>
+                <a href="https://huggingface.co/OpenSafetyLab/MD-Judge-v0_2-internlm2_7b">MD-Judge-v2</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="publication">
+            <a class="paper-media" href="https://ai45lab.github.io/VLSBench/">
+              <img src="https://raw.githubusercontent.com/AI45Lab/VLSBench/main/static/images/teaser.png" alt="VLSBench teaser">
+            </a>
+            <div class="paper-body">
+              <div class="paper-meta"><span>ACL 2025</span><span>First Author</span></div>
+              <h3><a href="https://arxiv.org/pdf/2411.19939">Unveiling Visual Leakage in Multimodal Safety</a></h3>
+              <p class="authors"><strong>Xuhao Hu</strong>, et al.</p>
+              <p>Studies visual leakage in multimodal safety and releases VLSBench, an evaluation and alignment resource with scalable multimodal safety data construction.</p>
+              <div class="links">
+                <a href="https://arxiv.org/pdf/2411.19939">Paper</a>
+                <a href="https://ai45lab.github.io/VLSBench/">Project</a>
+                <a href="https://github.com/AI45Lab/VLSBench">Code</a>
+                <a href="https://huggingface.co/datasets/Foreshhh/vlsbench">Dataset</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="publication">
+            <a class="paper-media" href="https://github.com/AI45Lab/IS-Bench">
+              <img src="https://raw.githubusercontent.com/AI45Lab/IS-Bench/main/assets/motivation.png" alt="IS-Bench motivation">
+            </a>
+            <div class="paper-body">
+              <div class="paper-meta"><span>AAAI 2026</span><span>Co-First Author</span></div>
+              <h3><a href="https://arxiv.org/abs/2506.16402">IS-Bench: Evaluating Interactive Safety of VLM-Driven Embodied Agents in Daily Household Tasks</a></h3>
+              <p class="authors">Yuxuan Zhang, <strong>Xuhao Hu</strong>, Jing Shao, et al.</p>
+              <p>A benchmark for interactive safety of VLM-driven embodied agents in realistic household tasks, covering hazards introduced by multi-step perception, planning, and action.</p>
+              <div class="links">
+                <a href="https://arxiv.org/abs/2506.16402">Paper</a>
+                <a href="https://github.com/AI45Lab/IS-Bench">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="publication">
+            <a class="paper-media" href="https://github.com/hxhcreate/LLM_Deceive_Unintentionally">
+              <img src="assets/papers/deceive.png" alt="LLMs Deceive Unintentionally teaser">
+            </a>
+            <div class="paper-body">
+              <div class="paper-meta"><span>ACL 2026</span><span>First Author</span></div>
+              <h3><a href="https://github.com/hxhcreate/LLM_Deceive_Unintentionally">LLMs Deceive Unintentionally: Emergent Misalignment in Dishonesty from Misaligned Samples to Biased Human-AI Interactions</a></h3>
+              <p class="authors"><strong>Xuhao Hu</strong>, et al.</p>
+              <p>Systematically studies emergent dishonesty misalignment under high-stakes settings through direct SFT, downstream SFT, preference learning, and multi-turn human-AI interactions.</p>
+              <div class="links">
+                <a href="https://github.com/hxhcreate/LLM_Deceive_Unintentionally">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="publication">
+            <a class="paper-media" href="https://ai45.shlab.org.cn/research/posts/safework-r1/">
+              <img src="https://research.ai45.shlab.org.cn/Blog_pics/R1-17.png" alt="SafeWork-R1 evolution figure">
+            </a>
+            <div class="paper-body">
+              <div class="paper-meta"><span>Tech Report</span><span>Contributor</span></div>
+              <h3><a href="https://arxiv.org/abs/2507.18576">SafeWork-R1: Coevolving Safety and Intelligence under the AI-45 Law</a></h3>
+              <p class="authors">Center for Safe &amp; Trustworthy AI, including <strong>Xuhao Hu</strong></p>
+              <p>A multimodal reasoning model and SafeLadder framework for coevolving safety and general capability. I contributed to multimodal reward models for safety and helpfulness used in multi-target RL.</p>
+              <div class="links">
+                <a href="https://arxiv.org/abs/2507.18576">Paper</a>
+                <a href="https://ai45.shlab.org.cn/research/posts/safework-r1/">Project</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="publication">
+            <a class="paper-media" href="https://github.com/yjyddq/DARE">
+              <img src="https://raw.githubusercontent.com/yjyddq/DARE/main/assets/DARE_logo.png" alt="DARE logo">
+            </a>
+            <div class="paper-body">
+              <div class="paper-meta"><span>ArXiv</span><span>Co-First Author</span></div>
+              <h3><a href="https://arxiv.org/pdf/2604.04215">DARE: dLLM Alignment and Reinforcement Executor</a></h3>
+              <p class="authors">Jingyi Yang*, Yuxian Jiang*, <strong>Xuhao Hu</strong>*, Shuang Cheng, Biqing Qi, Jing Shao†</p>
+              <p>An efficient RL training framework for diffusion large language models, integrating dLLM-tailored RL algorithms and practical recipes on top of veRL-style infrastructure.</p>
+              <div class="links">
+                <a href="https://arxiv.org/pdf/2604.04215">Paper</a>
+                <a href="https://github.com/yjyddq/DARE">Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <h2>Education &amp; Experience</h2>
+        <div class="timeline">
+          <div>
+            <time>2024 - Now</time>
+            <h3>PhD Student, FudanNLP, Fudan University</h3>
+            <p>Computer Science. Supervised by Xuanjing Huang.</p>
+          </div>
+          <div>
+            <time>2025.11 - Now</time>
+            <h3>Mobile-Agent / XPLUG Team, Tongyi Lab, Alibaba</h3>
+            <p>GUI-tool capability, GUI world modeling, agentic RL scaling, and Qwen mobile-agent development. Mentored by Xi Zhang and Haiyang Xu.</p>
+          </div>
+          <div>
+            <time>2023.10 - 2025.10</time>
+            <h3>AI45 / OpenTrust Team, Shanghai AI Laboratory</h3>
+            <p>Safety alignment, reward modeling, multimodal safety evaluation, and post-training research. Led by Jing Shao.</p>
+          </div>
+          <div>
+            <time>2020 - 2024</time>
+            <h3>B.S., Beijing Institute of Technology</h3>
+            <p>Computer Science Elite Class. Ranked top 5%.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="honors" class="section">
+        <h2>Honors and Awards</h2>
+        <ul class="compact-list">
+          <li>Panasonic Scholarship, Fudan University</li>
+          <li>National College Students Mathematical Modeling Contest, Second Prize</li>
+          <li>Outstanding Undergraduate Graduation Design, Beijing Institute of Technology</li>
+          <li>Yearly Outstanding Undergraduate Student, Beijing Institute of Technology</li>
+        </ul>
+      </section>
+
+      <section id="service" class="section">
+        <h2>Academic Service &amp; Skills</h2>
+        <ul class="compact-list">
+          <li>Reviewer: NeurIPS 2026, EMNLP 2025</li>
+          <li>Programming and frameworks: Python, C++, PyTorch, vLLM, veRL, Docker</li>
+          <li>Agentic coding and systems workflow: Codex, Claude Code, sandboxed evaluation, and rollout infrastructure</li>
+        </ul>
+      </section>
+
+      <footer class="footer">
+        <p>Last updated: June 2026. Built as a static GitHub Pages site.</p>
+      </footer>
+    </article>
+  </main>
+</body>
+</html>
