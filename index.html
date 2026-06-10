@@ -56,12 +56,6 @@
           I am interested in scalable agentic RL, GUI-tool orchestration, verifiable sandbox environments,
           multimodal safety evaluation, and reward modeling for safer and more capable AI systems.
         </p>
-        <div class="quick-stats" aria-label="Profile highlights">
-          <div><strong>FudanNLP</strong><span>PhD, 2024-now</span></div>
-          <div><strong>Top 5%</strong><span>B.S. ranking at BIT</span></div>
-          <div><strong>300+</strong><span>Citations for safety work</span></div>
-          <div><strong>100K+</strong><span>HF downloads for MD-Judge line</span></div>
-        </div>
       </section>
 
       <section id="news" class="section">
@@ -80,185 +74,149 @@
       </section>
 
       <section id="research" class="section">
-        <h2>Research Topics</h2>
-        <div class="topic-grid">
-          <section>
-            <h3>Computer-Use Agents</h3>
-            <p>GUI-tool path orchestration, computer-use agent data scaling, rollout sandboxes, GUI-MCP environments, and agentic RL for desktop/mobile workflows.</p>
-          </section>
-          <section>
-            <h3>Safety Alignment</h3>
-            <p>LLM/VLM safety judges, multimodal safety leakage, interactive embodied-agent safety, dishonesty misalignment, and multimodal reward models.</p>
-          </section>
-          <section>
-            <h3>Diffusion LLMs</h3>
-            <p>RL algorithms and training infrastructure tailored to diffusion large language models, including efficient policy optimization and evaluation recipes.</p>
-          </section>
+        <h2>📝 Research Topics</h2>
+        <div class="research-list">
+          <h3>Multimodal Agent in real world workflow</h3>
+          <ul>
+            <li><span class="venue-label">ArXiv</span> <a href="https://arxiv.org/abs/2605.12481">ToolCUA: Towards Optimal GUI-Tool Path Orchestration for Computer Use Agents</a>. <strong>Xuhao Hu</strong><sup>*</sup>, Xi Zhang<sup>*</sup>, Haiyang Xu<sup>†</sup>, Kyle Qiao, Jingyi Yang, Xuanjing Huang, Jing Shao, Ming Yan<sup>†</sup>, Jieping Ye</li>
+            <li><span class="venue-label">Tech Report</span> <a href="https://arxiv.org/abs/2602.16855">Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents</a>. Core contributor on GUI-tool capability, GUI world modeling, and agentic RL scaling.</li>
+          </ul>
+
+          <h3>MLLM/LLM Safety</h3>
+          <ul>
+            <li><span class="venue-label">ACL 2024</span> <a href="https://github.com/OpenSafetyLab/SALAD-BENCH">SALAD-Bench and MD-Judge</a>. Co-first author; early LLM-based safety judge models with 100K+ Hugging Face downloads.</li>
+            <li><span class="venue-label">ACL 2025</span> <a href="https://arxiv.org/pdf/2411.19939">Unveiling Visual Leakage in Multimodal Safety</a>. <strong>Xuhao Hu</strong>, et al.</li>
+            <li><span class="venue-label">AAAI 2026</span> <a href="https://arxiv.org/abs/2506.16402">IS-Bench: Evaluating Interactive Safety of VLM-Driven Embodied Agents in Daily Household Tasks</a>. Co-first author.</li>
+            <li><span class="venue-label">ACL 2026</span> <a href="https://github.com/hxhcreate/LLM_Deceive_Unintentionally">LLMs Deceive Unintentionally: Emergent Misalignment in Dishonesty from Misaligned Samples to Biased Human-AI Interactions</a>. First author.</li>
+            <li><span class="venue-label">Tech Report</span> <a href="https://arxiv.org/abs/2507.18576">SafeWork-R1: Coevolving Safety and Intelligence under the AI-45 Law</a>. Contributor on multimodal reward models for safety and helpfulness.</li>
+          </ul>
+
+          <h3>Diffusion LLMs</h3>
+          <ul>
+            <li><span class="venue-label">ArXiv</span> <a href="https://arxiv.org/pdf/2604.04215">DARE: dLLM Alignment and Reinforcement Executor</a> -- <em>an efficient RL training framework for diffusion large language models integrated with dLLM-tailored RL algorithms</em>. Jingyi Yang<sup>*</sup>, Yuxian Jiang<sup>*</sup>, <strong>Xuhao Hu</strong><sup>*</sup>, Shuang Cheng, Biqing Qi, Jing Shao<sup>†</sup></li>
+          </ul>
         </div>
       </section>
 
       <section id="publications" class="section">
-        <h2>Selected Publications</h2>
+        <h2>📖 Selected Publications (* Equal Contribution, † Corresponding Author)</h2>
         <p class="note">* Equal contribution, † corresponding author. Role labels follow my CV and project pages.</p>
 
-        <div class="publication-list">
-          <article class="publication featured">
-            <a class="paper-media" href="https://x-plug.github.io/ToolCUA/">
-              <img src="https://raw.githubusercontent.com/X-PLUG/ToolCUA/main/assets/main_teaser.png" alt="ToolCUA teaser">
-            </a>
-            <div class="paper-body">
-              <div class="paper-meta"><span>ArXiv</span><span>NeurIPS 2026 under review</span><span>First Author</span></div>
-              <h3><a href="https://arxiv.org/abs/2605.12481">ToolCUA: Towards Optimal GUI-Tool Path Orchestration for Computer Use Agents</a></h3>
-              <p class="authors"><strong>Xuhao Hu</strong>*, Xi Zhang*, Haiyang Xu†, Kyle Qiao, Jingyi Yang, Xuanjing Huang, Jing Shao, Ming Yan†, Jieping Ye</p>
-              <p>Introduces an end-to-end computer-use agent for optimal GUI-tool path selection, combining interleaved GUI-tool trajectory scaling, tool-bootstrapped GUI RFT, and online agentic RL.</p>
-              <div class="links">
-                <a href="https://arxiv.org/abs/2605.12481">Paper</a>
-                <a href="https://x-plug.github.io/ToolCUA/">Project</a>
-                <a href="https://github.com/X-PLUG/ToolCUA">Code</a>
-                <a href="https://huggingface.co/mPLUG/ToolCUA-8B">Model</a>
-              </div>
-            </div>
-          </article>
+        <div class="paper-box"><div class="paper-box-image"><div><div class="badge">ArXiv</div><img src="https://raw.githubusercontent.com/X-PLUG/ToolCUA/main/assets/main_teaser.png" alt="ToolCUA teaser" width="100%"></div></div>
+          <div class="paper-box-text">
+            <p><a href="https://arxiv.org/abs/2605.12481">ToolCUA: Towards Optimal GUI-Tool Path Orchestration for Computer Use Agents</a></p>
+            <div class="tags" data-tags="agent,rl"></div>
+            <p><strong>Xuhao Hu</strong><sup>*</sup>, Xi Zhang<sup>*</sup>, Haiyang Xu<sup>†</sup>, Kyle Qiao, Jingyi Yang, Xuanjing Huang, Jing Shao, Ming Yan<sup>†</sup>, Jieping Ye</p>
+            <p>End-to-end computer-use agent for optimal GUI-tool path selection, with interleaved trajectory scaling, tool-bootstrapped GUI RFT, and online agentic RL.</p>
+            <p><a href="https://arxiv.org/abs/2605.12481"><strong>Paper</strong></a> / <a href="https://x-plug.github.io/ToolCUA/"><strong>Project HomePage</strong></a> / <a href="https://github.com/X-PLUG/ToolCUA"><strong>Code</strong></a> / <a href="https://huggingface.co/mPLUG/ToolCUA-8B"><strong>Model</strong></a></p>
+          </div>
+        </div>
 
-          <article class="publication">
-            <a class="paper-media" href="https://github.com/X-PLUG/MobileAgent">
-              <img src="https://raw.githubusercontent.com/X-PLUG/MobileAgent/main/assets/logo.png" alt="Mobile-Agent logo">
-            </a>
-            <div class="paper-body">
-              <div class="paper-meta"><span>Tech Report</span><span>Core Contributor</span></div>
-              <h3><a href="https://arxiv.org/abs/2602.16855">Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents</a></h3>
-              <p class="authors">Xi Zhang, Haiyang Xu, et al.; <strong>Xuhao Hu</strong> as core contributor</p>
-              <p>A multi-platform GUI agent report from the Mobile-Agent series. I worked on GUI + tool capabilities, OSWorld-MCP/MobileWorld results, verifiable tasks, rollout sandboxes, and GUI critic pipelines.</p>
-              <div class="links">
-                <a href="https://arxiv.org/abs/2602.16855">Paper</a>
-                <a href="https://github.com/X-PLUG/MobileAgent">Code</a>
-                <a href="https://github.com/X-PLUG">X-PLUG</a>
-              </div>
-            </div>
-          </article>
+        <div class="paper-box"><div class="paper-box-image"><div><div class="badge">Tech Report</div><img src="https://raw.githubusercontent.com/X-PLUG/MobileAgent/main/assets/logo.png" alt="Mobile-Agent logo" width="100%"></div></div>
+          <div class="paper-box-text">
+            <p><a href="https://arxiv.org/abs/2602.16855">Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents</a></p>
+            <div class="tags" data-tags="agent"></div>
+            <p>Xi Zhang, Haiyang Xu, et al.; <strong>Xuhao Hu</strong> as core contributor</p>
+            <p>Responsible for GUI + tool capabilities for next-generation CUAs/Claws, OSWorld-MCP/MobileWorld results, verifiable tasks, rollout sandboxes, and GUI critic pipelines.</p>
+            <p><a href="https://arxiv.org/abs/2602.16855"><strong>Paper</strong></a> / <a href="https://github.com/X-PLUG/MobileAgent"><strong>Code</strong></a> / <a href="https://github.com/X-PLUG"><strong>X-PLUG</strong></a></p>
+          </div>
+        </div>
 
-          <article class="publication">
-            <a class="paper-media" href="https://github.com/OpenSafetyLab/SALAD-BENCH">
-              <img src="assets/papers/salad.jpg" alt="SALAD-Bench overview">
-            </a>
-            <div class="paper-body">
-              <div class="paper-meta"><span>ACL 2024</span><span>Co-First Author</span></div>
-              <h3><a href="https://github.com/OpenSafetyLab/SALAD-BENCH">SALAD-Bench and MD-Judge</a></h3>
-              <p class="authors">OpenSafetyLab team, including <strong>Xuhao Hu</strong></p>
-              <p>Early LLM-based safety judge models and benchmark resources. MD-Judge-v1/v2 and related data/models have reached 100K+ Hugging Face downloads and 300+ citations.</p>
-              <div class="links">
-                <a href="https://github.com/OpenSafetyLab/SALAD-BENCH">Code</a>
-                <a href="https://huggingface.co/OpenSafetyLab/MD-Judge-v0.1">MD-Judge-v1</a>
-                <a href="https://huggingface.co/OpenSafetyLab/MD-Judge-v0_2-internlm2_7b">MD-Judge-v2</a>
-              </div>
-            </div>
-          </article>
+        <div class="paper-box"><div class="paper-box-image"><div><div class="badge">ACL 2024</div><img src="assets/papers/salad.jpg" alt="SALAD-Bench overview" width="100%"></div></div>
+          <div class="paper-box-text">
+            <p><a href="https://github.com/OpenSafetyLab/SALAD-BENCH">SALAD-Bench and MD-Judge</a></p>
+            <div class="tags" data-tags="safety"></div>
+            <p>OpenSafetyLab team, including <strong>Xuhao Hu</strong></p>
+            <p>Early LLM-based safety judge models. MD-Judge-v1/v2 and related resources have reached 100K+ Hugging Face downloads and 300+ citations.</p>
+            <p><a href="https://github.com/OpenSafetyLab/SALAD-BENCH"><strong>Code</strong></a> / <a href="https://huggingface.co/OpenSafetyLab/MD-Judge-v0.1"><strong>MD-Judge-v1</strong></a> / <a href="https://huggingface.co/OpenSafetyLab/MD-Judge-v0_2-internlm2_7b"><strong>MD-Judge-v2</strong></a></p>
+          </div>
+        </div>
 
-          <article class="publication">
-            <a class="paper-media" href="https://ai45lab.github.io/VLSBench/">
-              <img src="https://raw.githubusercontent.com/AI45Lab/VLSBench/main/static/images/teaser.png" alt="VLSBench teaser">
-            </a>
-            <div class="paper-body">
-              <div class="paper-meta"><span>ACL 2025</span><span>First Author</span></div>
-              <h3><a href="https://arxiv.org/pdf/2411.19939">Unveiling Visual Leakage in Multimodal Safety</a></h3>
-              <p class="authors"><strong>Xuhao Hu</strong>, et al.</p>
-              <p>Studies visual leakage in multimodal safety and releases VLSBench, an evaluation and alignment resource with scalable multimodal safety data construction.</p>
-              <div class="links">
-                <a href="https://arxiv.org/pdf/2411.19939">Paper</a>
-                <a href="https://ai45lab.github.io/VLSBench/">Project</a>
-                <a href="https://github.com/AI45Lab/VLSBench">Code</a>
-                <a href="https://huggingface.co/datasets/Foreshhh/vlsbench">Dataset</a>
-              </div>
-            </div>
-          </article>
+        <div class="paper-box"><div class="paper-box-image"><div><div class="badge">ACL 2025</div><img src="https://raw.githubusercontent.com/AI45Lab/VLSBench/main/static/images/teaser.png" alt="VLSBench teaser" width="100%"></div></div>
+          <div class="paper-box-text">
+            <p><a href="https://arxiv.org/pdf/2411.19939">Unveiling Visual Leakage in Multimodal Safety</a></p>
+            <div class="tags" data-tags="safety,mm"></div>
+            <p><strong>Xuhao Hu</strong>, et al.</p>
+            <p>Studies visual leakage in multimodal safety and releases VLSBench, an evaluation and alignment resource with scalable multimodal safety data construction.</p>
+            <p><a href="https://arxiv.org/pdf/2411.19939"><strong>Paper</strong></a> / <a href="https://ai45lab.github.io/VLSBench/"><strong>Project HomePage</strong></a> / <a href="https://github.com/AI45Lab/VLSBench"><strong>Code</strong></a> / <a href="https://huggingface.co/datasets/Foreshhh/vlsbench"><strong>Dataset</strong></a></p>
+          </div>
+        </div>
 
-          <article class="publication">
-            <a class="paper-media" href="https://github.com/AI45Lab/IS-Bench">
-              <img src="https://raw.githubusercontent.com/AI45Lab/IS-Bench/main/assets/motivation.png" alt="IS-Bench motivation">
-            </a>
-            <div class="paper-body">
-              <div class="paper-meta"><span>AAAI 2026</span><span>Co-First Author</span></div>
-              <h3><a href="https://arxiv.org/abs/2506.16402">IS-Bench: Evaluating Interactive Safety of VLM-Driven Embodied Agents in Daily Household Tasks</a></h3>
-              <p class="authors">Yuxuan Zhang, <strong>Xuhao Hu</strong>, Jing Shao, et al.</p>
-              <p>A benchmark for interactive safety of VLM-driven embodied agents in realistic household tasks, covering hazards introduced by multi-step perception, planning, and action.</p>
-              <div class="links">
-                <a href="https://arxiv.org/abs/2506.16402">Paper</a>
-                <a href="https://github.com/AI45Lab/IS-Bench">Code</a>
-              </div>
-            </div>
-          </article>
+        <div class="paper-box"><div class="paper-box-image"><div><div class="badge">AAAI 2026</div><img src="https://raw.githubusercontent.com/AI45Lab/IS-Bench/main/assets/motivation.png" alt="IS-Bench motivation" width="100%"></div></div>
+          <div class="paper-box-text">
+            <p><a href="https://arxiv.org/abs/2506.16402">IS-Bench: Evaluating Interactive Safety of VLM-Driven Embodied Agents in Daily Household Tasks</a></p>
+            <div class="tags" data-tags="safety,agent"></div>
+            <p>Yuxuan Zhang, <strong>Xuhao Hu</strong>, Jing Shao, et al.</p>
+            <p>Benchmark for interactive safety of VLM-driven embodied agents in realistic household tasks, covering hazards introduced by multi-step perception, planning, and action.</p>
+            <p><a href="https://arxiv.org/abs/2506.16402"><strong>Paper</strong></a> / <a href="https://github.com/AI45Lab/IS-Bench"><strong>Code</strong></a></p>
+          </div>
+        </div>
 
-          <article class="publication">
-            <a class="paper-media" href="https://github.com/hxhcreate/LLM_Deceive_Unintentionally">
-              <img src="assets/papers/deceive.png" alt="LLMs Deceive Unintentionally teaser">
-            </a>
-            <div class="paper-body">
-              <div class="paper-meta"><span>ACL 2026</span><span>First Author</span></div>
-              <h3><a href="https://github.com/hxhcreate/LLM_Deceive_Unintentionally">LLMs Deceive Unintentionally: Emergent Misalignment in Dishonesty from Misaligned Samples to Biased Human-AI Interactions</a></h3>
-              <p class="authors"><strong>Xuhao Hu</strong>, et al.</p>
-              <p>Systematically studies emergent dishonesty misalignment under high-stakes settings through direct SFT, downstream SFT, preference learning, and multi-turn human-AI interactions.</p>
-              <div class="links">
-                <a href="https://github.com/hxhcreate/LLM_Deceive_Unintentionally">Code</a>
-              </div>
-            </div>
-          </article>
+        <div class="paper-box"><div class="paper-box-image"><div><div class="badge">ACL 2026</div><img src="assets/papers/deceive.png" alt="LLMs Deceive Unintentionally teaser" width="100%"></div></div>
+          <div class="paper-box-text">
+            <p><a href="https://github.com/hxhcreate/LLM_Deceive_Unintentionally">LLMs Deceive Unintentionally: Emergent Misalignment in Dishonesty from Misaligned Samples to Biased Human-AI Interactions</a></p>
+            <div class="tags" data-tags="safety"></div>
+            <p><strong>Xuhao Hu</strong>, et al.</p>
+            <p>Systematically studies emergent dishonesty misalignment under high-stakes settings through direct SFT, downstream SFT, preference learning, and multi-turn human-AI interactions.</p>
+            <p><a href="https://github.com/hxhcreate/LLM_Deceive_Unintentionally"><strong>Code</strong></a></p>
+          </div>
+        </div>
 
-          <article class="publication">
-            <a class="paper-media" href="https://ai45.shlab.org.cn/research/posts/safework-r1/">
-              <img src="https://research.ai45.shlab.org.cn/Blog_pics/R1-17.png" alt="SafeWork-R1 evolution figure">
-            </a>
-            <div class="paper-body">
-              <div class="paper-meta"><span>Tech Report</span><span>Contributor</span></div>
-              <h3><a href="https://arxiv.org/abs/2507.18576">SafeWork-R1: Coevolving Safety and Intelligence under the AI-45 Law</a></h3>
-              <p class="authors">Center for Safe &amp; Trustworthy AI, including <strong>Xuhao Hu</strong></p>
-              <p>A multimodal reasoning model and SafeLadder framework for coevolving safety and general capability. I contributed to multimodal reward models for safety and helpfulness used in multi-target RL.</p>
-              <div class="links">
-                <a href="https://arxiv.org/abs/2507.18576">Paper</a>
-                <a href="https://ai45.shlab.org.cn/research/posts/safework-r1/">Project</a>
-              </div>
-            </div>
-          </article>
+        <div class="paper-box"><div class="paper-box-image"><div><div class="badge">Tech Report</div><img src="https://research.ai45.shlab.org.cn/Blog_pics/R1-17.png" alt="SafeWork-R1 evolution figure" width="100%"></div></div>
+          <div class="paper-box-text">
+            <p><a href="https://arxiv.org/abs/2507.18576">SafeWork-R1: Coevolving Safety and Intelligence under the AI-45 Law</a></p>
+            <div class="tags" data-tags="safety,rl"></div>
+            <p>Center for Safe &amp; Trustworthy AI, including <strong>Xuhao Hu</strong></p>
+            <p>Multimodal reasoning model and SafeLadder framework for coevolving safety and general capability. I contributed to multimodal reward models for safety and helpfulness used in multi-target RL.</p>
+            <p><a href="https://arxiv.org/abs/2507.18576"><strong>Paper</strong></a> / <a href="https://ai45.shlab.org.cn/research/posts/safework-r1/"><strong>Project HomePage</strong></a></p>
+          </div>
+        </div>
 
-          <article class="publication">
-            <a class="paper-media" href="https://github.com/yjyddq/DARE">
-              <img src="https://raw.githubusercontent.com/yjyddq/DARE/main/assets/DARE_logo.png" alt="DARE logo">
-            </a>
-            <div class="paper-body">
-              <div class="paper-meta"><span>ArXiv</span><span>Co-First Author</span></div>
-              <h3><a href="https://arxiv.org/pdf/2604.04215">DARE: dLLM Alignment and Reinforcement Executor</a></h3>
-              <p class="authors">Jingyi Yang*, Yuxian Jiang*, <strong>Xuhao Hu</strong>*, Shuang Cheng, Biqing Qi, Jing Shao†</p>
-              <p>An efficient RL training framework for diffusion large language models, integrating dLLM-tailored RL algorithms and practical recipes on top of veRL-style infrastructure.</p>
-              <div class="links">
-                <a href="https://arxiv.org/pdf/2604.04215">Paper</a>
-                <a href="https://github.com/yjyddq/DARE">Code</a>
-              </div>
-            </div>
-          </article>
+        <div class="paper-box"><div class="paper-box-image"><div><div class="badge">ArXiv</div><img src="https://raw.githubusercontent.com/yjyddq/DARE/main/assets/DARE_logo.png" alt="DARE logo" width="100%"></div></div>
+          <div class="paper-box-text">
+            <p><a href="https://arxiv.org/pdf/2604.04215">DARE: dLLM Alignment and Reinforcement Executor</a></p>
+            <div class="tags" data-tags="dllm,rl"></div>
+            <p>Jingyi Yang<sup>*</sup>, Yuxian Jiang<sup>*</sup>, <strong>Xuhao Hu</strong><sup>*</sup>, Shuang Cheng, Biqing Qi, Jing Shao<sup>†</sup></p>
+            <p>An efficient RL training framework for diffusion large language models, integrating dLLM-tailored RL algorithms and practical recipes on top of veRL-style infrastructure.</p>
+            <p><a href="https://arxiv.org/pdf/2604.04215"><strong>Paper</strong></a> / <a href="https://github.com/yjyddq/DARE"><strong>Code</strong></a></p>
+          </div>
         </div>
       </section>
 
       <section id="experience" class="section">
         <h2>Education &amp; Experience</h2>
-        <div class="timeline">
-          <div>
+        <div class="timeline edu-timeline">
+          <div class="timeline-item">
+            <div class="org-icon">F</div>
+            <div>
             <time>2024 - Now</time>
             <h3>PhD Student, FudanNLP, Fudan University</h3>
-            <p>Computer Science. Supervised by Xuanjing Huang.</p>
+            <p>Computer Science. Supervised by <a href="https://xuanjing-huang.github.io/">Xuanjing Huang</a>; close collaboration with <a href="https://amandajshao.github.io/">Jing Shao</a>.</p>
+            </div>
           </div>
-          <div>
+          <div class="timeline-item">
+            <div class="org-icon">A</div>
+            <div>
             <time>2025.11 - Now</time>
             <h3>Mobile-Agent / XPLUG Team, Tongyi Lab, Alibaba</h3>
-            <p>GUI-tool capability, GUI world modeling, agentic RL scaling, and Qwen mobile-agent development. Mentored by Xi Zhang and Haiyang Xu.</p>
+            <p>GUI-tool capability, GUI world modeling, agentic RL scaling, and Qwen mobile-agent development. Mentored by <a href="https://scholar.google.com.sg/citations?user=TE1odswAAAAJ&amp;hl=en&amp;oi=ao">Xi Zhang</a> and <a href="https://scholar.google.com.sg/citations?user=qZYvce8AAAAJ&amp;hl=en&amp;oi=ao">Haiyang Xu</a>.</p>
+            </div>
           </div>
-          <div>
+          <div class="timeline-item">
+            <div class="org-icon">AI</div>
+            <div>
             <time>2023.10 - 2025.10</time>
             <h3>AI45 / OpenTrust Team, Shanghai AI Laboratory</h3>
-            <p>Safety alignment, reward modeling, multimodal safety evaluation, and post-training research. Led by Jing Shao.</p>
+            <p>Safety alignment, reward modeling, multimodal safety evaluation, and post-training research. Led by <a href="https://amandajshao.github.io/">Jing Shao</a>.</p>
+            </div>
           </div>
-          <div>
+          <div class="timeline-item">
+            <div class="org-icon">BIT</div>
+            <div>
             <time>2020 - 2024</time>
             <h3>B.S., Beijing Institute of Technology</h3>
             <p>Computer Science Elite Class. Ranked top 5%.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -287,5 +245,26 @@
       </footer>
     </article>
   </main>
+  <script>
+    const tagsMap = {
+      agent: { name: 'Multimodal Agent', class: 'tag-agent' },
+      safety: { name: 'MLLM/LLM Safety', class: 'tag-safety' },
+      mm: { name: 'Multimodal Learning', class: 'tag-mm' },
+      dllm: { name: 'Diffusion LLMs', class: 'tag-dllm' },
+      rl: { name: 'Reinforcement Learning', class: 'tag-rl' },
+    };
+
+    document.querySelectorAll('.tags').forEach((tagDiv) => {
+      const tagAbbreviations = tagDiv.getAttribute('data-tags').split(',');
+      tagAbbreviations.forEach((abbreviation) => {
+        const tagInfo = tagsMap[abbreviation.trim()];
+        if (!tagInfo) return;
+        const tagElement = document.createElement('span');
+        tagElement.classList.add('tag', tagInfo.class);
+        tagElement.textContent = tagInfo.name;
+        tagDiv.appendChild(tagElement);
+      });
+    });
+  </script>
 </body>
 </html>
