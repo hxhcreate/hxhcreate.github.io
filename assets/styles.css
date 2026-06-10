@@ -65,6 +65,15 @@
   font-weight: 700;
 }
 
+.author__avatar img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  object-position: center center;
+  background: #fff;
+  border-radius: 50%;
+}
+
 .experience-list {
   display: grid;
   gap: 1.15em;
@@ -157,5 +166,12 @@
   .org-logo-shlab {
     width: 62px;
     height: 48px;
+  }
+}
+
+@media (min-width: 57.8125em) {
+  .author__avatar img {
+    width: 175px;
+    height: 175px;
   }
 }
